@@ -105,6 +105,17 @@ form > div p {
     padding: 0.3rem 0.4rem;
 }
 
+.form-field input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-field input:invalid {
+    outline: none;
+    border: 1px solid red;
+}
+
 .submit-btn {
     margin-bottom: 10px;
     margin-left: 32px;
