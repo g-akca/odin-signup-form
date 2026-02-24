@@ -7,7 +7,9 @@ body {
 }
 
 #sidebar-div {
-    width: 32%;
+    min-width: 375px;
+    width: 75%;
+    max-width: 500px;
     background-image: url(side.jpg);
     background-size: cover;
     background-position: center;
@@ -43,7 +45,7 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     align-self: center;
     padding: 4px 12px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 #credit-text a {
@@ -54,16 +56,23 @@ main {
     background-color: rgb(246, 255, 252);
     display: flex;
     align-items: center;
+    color: rgb(34, 34, 34);
 }
 
 #main-div > p {
-    margin: 20px 64px 20px 32px;
+    margin: 20px 128px 20px 32px;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 #form-div {
     background-color: white;
-    padding: 16px 32px;
+    padding: 16px 32px 32px;
     margin: 48px 0 24px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 #form-div p {
@@ -73,4 +82,23 @@ main {
 .submit-btn {
     margin-bottom: 10px;
     margin-left: 32px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 42px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#footer-text {
+    font-size: 0.9rem;
+}
+
+#login-text {
+    color: #596D48;
+    font-weight: bold;
+    cursor: pointer;
 }
