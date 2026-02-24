@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#sidebar-div {
+    width: 32%;
+    background-image: url(side.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background-color: rgb(246, 255, 252);
+    display: flex;
+    align-items: center;
+}
+
+#main-div > p {
+    margin: 20px 64px 20px 32px;
+}
+
+#form-div {
+    background-color: white;
+    padding: 16px 32px;
+    margin: 48px 0 24px 0;
+}
+
+#form-div p {
+    margin-top: 0;
+}
+
+.submit-btn {
+    margin-bottom: 10px;
+    margin-left: 32px;
+}
