@@ -53,7 +53,7 @@ body {
 }
 
 main {
-    background-color: rgb(246, 255, 252);
+    background-color: rgb(146, 233, 204);
     display: flex;
     align-items: center;
     color: rgb(34, 34, 34);
@@ -119,7 +119,7 @@ form > div p {
 .submit-btn {
     margin-bottom: 10px;
     margin-left: 32px;
-    background-color: #596D48;
+    background-color: #915b22;
     border: none;
     border-radius: 6px;
     color: white;
@@ -132,7 +132,7 @@ form > div p {
 }
 
 .submit-btn:hover {
-    background-color: #859f6e;
+    background-color: #ba722d;
 }
 
 #footer-text {
@@ -140,12 +140,12 @@ form > div p {
 }
 
 #login-text {
-    color: #596D48;
+    color: #915b22;
     font-weight: bold;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 #login-text:hover {
-    color: #859f6e;
+    color: #ba722d;
 }
