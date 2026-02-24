@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    font-family: sans-serif;
 }
 
 #sidebar-div {
@@ -10,6 +11,43 @@ body {
     background-image: url(side.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+#logo-img {
+    height: 100%;
+}
+
+#logo-text {
+    color: white;
+    font-size: 72px;
+    margin: 0;
+    font-family: 'Norse';
+}
+
+#credit-text {
+    margin-top: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-self: center;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+}
+
+#credit-text a {
+    color: white;
 }
 
 main {
