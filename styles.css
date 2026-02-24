@@ -128,6 +128,11 @@ form > div p {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #859f6e;
 }
 
 #footer-text {
@@ -138,4 +143,9 @@ form > div p {
     color: #596D48;
     font-weight: bold;
     cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#login-text:hover {
+    color: #859f6e;
 }
